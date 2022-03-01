@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="Styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        
+    </head>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="products.html">Products</a>
+              </li>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button type="button" id="account-btn"class="btn btn-outline-primary mx-3">My Account</button>
+          <button type="button" class="btn btn-outline-success" id="cart-btn">Cart</button>
+        </div>
+      </nav>
+    <body>
+      <!--<script src="objectsExample.js"></script>-->
+        <div class="container">
+          <div onclick="Logout()"class="btn btn-danger me-auto my-3">Logout!</div>
+          <div class="row">
+            <h1 id="name" class ="text center py-3">Hi, YOUR NAME!</h1>
+          </div>
+          <div class="row">
+            <div class="col-6" ><h4 id ="email" class ="text center py-3">YOUR EMAIL!</h4></div>
+          </div>
+          <div class="row">
+            <div class="col-6" ><h4 id ="phone" class ="text center py-3">YOUR PHONE!</h4></div>
+          </div>
+          <div class="row">
+            <div class="col-6" ><h4 id="address" class ="text center py-3">YOUR ADDRESS!</h4></div>
+          </div>
+        </div>
+       
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="scripts/Scripts.js"></script>
+        <script src="scripts/checkUser.js"></script>
+        <script src="scripts/userRegister.js"></script>
+        <script src="scripts/account.js"></script>
+    </body>
+</html>
